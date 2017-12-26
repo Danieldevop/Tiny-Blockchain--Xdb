@@ -19,7 +19,7 @@ class Block {
        while (this.hash.substring(0, difficulty) !== Array(difficulty + 1).join('0')) {
             this.nonce++
             this.hash = this.calculateHash()
-       } 
+       }
 
        console.log(`Block mined: ${this.hash}`)
     }
@@ -53,7 +53,7 @@ class Blockchain {
             const previousBlock = this.chain[i-1]
 
             if (currentBlock.hash !== currentBlock.calculateHash()) {
-                return false 
+                return false
             }
 
             if (currentBlock.previousHash !== previousBlock.hash) {
@@ -87,5 +87,3 @@ karmacoin.addBlock(new Block(2, timestamp('YYYY/MM/DD:HH:mm:ss'), { amount : 4 }
 
 
 // console.log(`Is Blockchain valid? ${karmacoin.isChainValid()}`)
-
-

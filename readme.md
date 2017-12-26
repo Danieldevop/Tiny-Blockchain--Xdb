@@ -59,5 +59,3 @@ X-db is an transaction Blockchain database where you can storage any data with p
 ## License
 
 [GNU AGPL v3.0.](https://www.gnu.org/licenses/agpl-3.0.html)
-
-
