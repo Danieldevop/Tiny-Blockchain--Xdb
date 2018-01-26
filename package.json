@@ -1,0 +1,26 @@
+{
+  "name": "x-db",
+  "version": "1.0.0",
+  "description": "transaction Blockchain database",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2077DB/X-DB.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Ghost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2077DB/X-DB/issues"
+  },
+  "homepage": "https://github.com/2077DB/X-DB#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "time-stamp": "^2.0.0"
+  }
+}
